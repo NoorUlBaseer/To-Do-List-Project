@@ -58,7 +58,7 @@ const tabStyle = {
 // Create the "All" tab
 const allTab = document.createElement('button');
 allTab.textContent = 'All';
-Object.assign(allTab.style, tabStyle, { color: '#ff8a00', fontWeight: 'bold' }); // Set active tab style
+Object.assign(allTab.style, tabStyle, { color: '#ff8a00' }); // Set active tab style
 
 // Create the "Pending" tab
 const pendingTab = document.createElement('button');
